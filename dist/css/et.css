@@ -19,6 +19,12 @@ h1{
     font-size: 5rem;
 }
 
+p{
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
 a.nav-link{
     color: var(--et-primary);
     font-size: 1.5rem;
