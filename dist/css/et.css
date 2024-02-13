@@ -24,10 +24,6 @@ a.nav-link{
     font-size: 1.5rem;
 }
 
-.nav-link{
-    font-size: 1rem;
-}
-
 .nav-pills {
     --bs-nav-pills-link-active-color: var(--et-primary);
     --bs-nav-pills-link-active-bg: var(--bs-white);
@@ -53,6 +49,10 @@ a.nav-link{
 .et-banner img {
     height: 100%;
     max-width: 100%;
+}
+
+.et-socials{
+    margin: 0 1rem;
 }
 
 section{
