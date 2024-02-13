@@ -11,7 +11,7 @@
     color: white;
 }
 
-h1, h2, h3, .navbar {
+h1, h2, h3, .navbar, button {
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -24,6 +24,10 @@ a.nav-link{
     font-size: 1.5rem;
 }
 
+.nav-link{
+    font-size: 1rem;
+}
+
 .nav-pills {
     --bs-nav-pills-link-active-color: var(--et-primary);
     --bs-nav-pills-link-active-bg: var(--bs-white);
@@ -33,6 +37,9 @@ a.nav-link{
 @media (min-width: 1200px) {
     h1{
         font-size: 8rem;
+    }
+    .nav-link{
+        font-size: 2rem;
     }
 }
 
