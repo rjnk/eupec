@@ -28,6 +28,7 @@ a.nav-link{
     --bs-nav-pills-link-active-color: var(--et-primary);
     --bs-nav-pills-link-active-bg: var(--bs-white);
     --bs-link-color: white;
+    font-size: 1.5rem;
 }
 
 @media (min-width: 1200px) {
