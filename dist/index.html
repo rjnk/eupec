@@ -3,78 +3,133 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Scrolling Nav - Start Bootstrap Template</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <meta name="description" content="Pokračování strany Ano vytrollíme Europarlament." />
+        <title>Ano vypečeme Europarlament</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.webp" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/et.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top"><img alt=logo src=assets/vypeceme-logo.webp></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#priority">Priority</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kandidati">Kandidáti</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pripojse">Aktuality</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pripojse">Připoj se!</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
-                <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
-                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
-            </div>
-        </header>
-        <!-- About section-->
-        <section id="about">
-            <div class="container px-4">
+        <div class="bg-gradient text-white et-banner">
+            <img alt=nabor src=assets/nabor_3.png>
+        </div>
+        <!-- Priority-->
+        <section class="et-dark" id="priority">
+            <div class="container-fluid px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>About this page</h2>
-                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-                        <ul>
-                            <li>Clickable nav links that smooth scroll to page sections</li>
-                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-                        </ul>
+                        <h1 class=text-center>Priority pro Evropu</h1>
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#trdelnik" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                    Regulace ceny trdelníku
+                                </button>
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#eurokoruna" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    Zavedaní Eurokoruny
+                                </button>
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#erasmus" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    Erasmus+ pro vězně
+                                </button>
+                                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#ulozto" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    Celoevropská výjimka pro Uložto
+                                </button>
+                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="trdelnik" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                                    Jdeme s dobou a reagujeme efektivně na nové výzvy a potřeby občanů. Umíme využít přicházející trendy v oblasti trdelníků ve prospěch lidí a budeme nadále pracovat na tom, aby Česku neujel vlak, ale aby se naopak vezlo v prvním kupé.
+                                    <br><br>
+                                    V Evropské unii prosazujeme funkční trh s trdeníky. Takový trh, který nebude ovládán několika “molochy”, které vytlačí každou novou firmu, každý nový start-up, který se objeví.
+                                    <br><br>
+                                    Uděláme vše pro to, aby bylo Česko v Evropě bylo trdelníkově konkurenceschopné, prosperovalo a lidem a firmám se v něm dobře dařilo.
+                                </div>
+                                <div class="tab-pane fade" id="eurokoruna" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                    Chcete výhody Eura a Koruny dohromady? My jo a proto vám představujeme naše inovativní řešení - Eurokorunu.
+                                    <br><br>
+                                    Eurokoruna umožňuje sjednotit dva nepřátelský tábory. Příznivci Eura ocení možnost platit v Reichu i na dovče v Chorvatsku, fanouškovi koruny zase zůstane pocit hrdosti na to, že máme něco speciálního a jinýho než v cizině.
+                                    <br><br>
+                                    Přechod na tuhle novou měnu chceme nechat co nejsnadnější a tak necháme konverzi na korunu i Euro 1:1. Tak se v tom vyzná průměrný občan ČR a nikdo nebude tratit.
+                                    <br><br>
+                                    Zároveň je to skvělá příležitost vyměnit starý páprdy na bankovkách za někoho, kdo udělal něco užitečnějšího než napsal nudnou knížku. Pravejch hrdinů je v Česku dost a nebude problém nějakýho vybrat.
+                                </div>
+                                <div class="tab-pane fade" id="erasmus" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                    Erasmus+ mezi věznicemi je inovativní iniciativa, která překračuje hranice a umožňuje vězňům z různých zemí a věznic navzájem sdílet své zkušenosti, dovednosti a perspektivy.
+                                    <br><br>
+                                    Výměnný pobyt v jiné zemi je idealní příležitost se s minimem námahy naučit nový jazyk a získat nové dovednosti a znalosti od svých kolegů.
+                                    <br><br>
+                                    Setkání s novými kulturami je jedinečnou příležitostí jak se vypořádat s předsudky a diskriminací. Budoucí rozšíření na věznice RF a RJA by umožnilo i odstranění zášti vůči České republice a jejímu vězeňského systému.
+                                    <br><br>
+                                    Účelů vězení je mnoho - ochrana ostatních lidí, pocit spravedlnosti i náprava zlého člověka. Výměnný program bude navržený s respektem ke všem a tak zajistí spokojenost na straně vězňů i normálních lidí.
+                                </div>
+                                <div class="tab-pane fade" id="ulozto" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                    Nevim jak vy, ale zrušení Uložta mě fakt naštvalo. Kde si mám jako stahovat knížky? Co když se chci podívat na Shreka? Kde je nějaká svoboda??
+                                    <br><br>
+                                    A to všechno jenom proto, aby nějaká gigakorporace měla o pár mega víc, který může utratit za další právníky a odměny pro svoje vedení 🤮.
+                                    <br><br>
+                                    Sním o světe, kde můžete napsat pokračování Pána prstenů, vymyslet si novou kolej do Harryho Pottera nebo naprogramovat hru co se odehrává na Pandoře.
+                                    <br><br>
+                                    Jasně, výjimka pro Uložto to nezachrání. Ale je to první krok v boji s autorskými diktátory.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services section-->
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Services we offer</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <section class="bg-light text-center" id="kandidati">
+            <h1>Kandidáti</h1>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class=col-sm-4>
+                        <img class="img-fluid" alt=luky src=assets/luky.png>
+                        <h3>Luky</h3>
+                    </div>
+                    <div class=col-sm-4>
+                        <img class="img-fluid" alt=gaspi src=assets/gaspi-pfp.png>
+                        <h3>Gašpi</h3>
+                    </div>
+                    <div class=col-sm-4>
+                        <img class="img-fluid" alt=gaspi src=assets/lukas.png>
+                        <h3>Lukáš</h3>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Contact section-->
-        <section id="contact">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Contact us</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                    </div>
+        <div id=pripojse class="container">
+            <div class="row align-items-center">
+                <div class="col-sm">
+                    <h1>
+                        Připoj se a zjisti novinky
+                    </h1>
+                    <p>
+                        Najdeš tam co právě pečeme!<br>
+                        Použij QR nebo přímo odkaz na Discord: <a href=https://discord.gg/VCfTM4VsrN style="all: revert">https://discord.gg/VCfTM4VsrN</a>
+                    </p>
                 </div>
+                <img class="col-sm img-fluid" alt=qr src=assets/luky-qr.png>
             </div>
-        </section>
+        </div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        <footer class="py-5 et-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Web je open source! s normální MITkou, přímo na mim githubu :tr:<a></a></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

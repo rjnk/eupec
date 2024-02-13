@@ -1,0 +1,53 @@
+@import "https://gfonts.pirati.cz/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import "styles.css";
+
+:root {
+    --et-primary: #040a30;
+}
+
+.et-dark{
+    background-color: var(--et-primary);
+    color: white;
+}
+
+h1, h2, h3, .navbar {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+a.nav-link{
+    color: var(--et-primary);
+    font-size: 1.5rem;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: var(--et-primary);
+    --bs-nav-pills-link-active-bg: var(--bs-white);
+    --bs-link-color: white;
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 8rem;
+    }
+}
+
+.et-banner {
+    margin-top: 10vh;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.et-banner img {
+    height: 100%;
+    max-width: 100%;
+}
+
+section{
+    padding: 2rem 0;
+}
