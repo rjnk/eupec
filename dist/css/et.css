@@ -37,20 +37,12 @@ a.nav-link{
     font-size: 1.5rem;
 }
 
-@media (min-width: 1200px) {
-    h1{
-        font-size: 8rem;
-    }
-    .nav-link{
-        font-size: 2rem;
-    }
-}
-
 .et-banner {
     margin-top: 10vh;
-    height: 75vh;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .et-banner img {
@@ -64,4 +56,18 @@ a.nav-link{
 
 section{
     padding: 2rem 0;
+}
+
+@media (min-width: 1200px) {
+    h1{
+        font-size: 8rem;
+    }
+    .nav-link{
+        font-size: 2rem;
+    }
+
+    .et-banner{
+        flex-direction: row;
+        height: 75vh;
+    }
 }
